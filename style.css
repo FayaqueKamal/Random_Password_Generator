@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 0.5px solid #000; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #142e96;
+background: linear-gradient(305deg, rgba(20, 46, 150, 1) 50%, rgba(178, 111, 237, 1) 100%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    padding: 50px;
+    background-color: #9E65F9;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(29, 5, 35, 0.5);
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
+    height: 50px;
+    margin: 20px 0;
+    padding: 18px;
+    background-color: rgb(221, 239, 239);
+    border-radius: 20px;
+}
+
+button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 250px;
+    height: 40px;
+    background-color: #7a30b6f7;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.container> :nth-child(2) {
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bolder;
+
+
+    text-decoration: underline;
+}
+
+.container div p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px;
+}
+
+.main img {
+    cursor: pointer;
+}
