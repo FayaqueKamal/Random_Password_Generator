@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 0.5px solid #000; */
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -12,9 +11,8 @@ body {
     align-items: center;
     height: 100vh;
     background: #142e96;
-background: linear-gradient(305deg, rgba(20, 46, 150, 1) 50%, rgba(178, 111, 237, 1) 100%);
+    background: linear-gradient(305deg, rgba(20, 46, 150, 1) 50%, rgba(178, 111, 237, 1) 100%);
 }
-
 .container {
     display: flex;
     justify-content: center;
@@ -27,7 +25,6 @@ background: linear-gradient(305deg, rgba(20, 46, 150, 1) 50%, rgba(178, 111, 237
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(29, 5, 35, 0.5);
 }
-
 .main {
     display: flex;
     justify-content: space-between;
@@ -40,7 +37,6 @@ background: linear-gradient(305deg, rgba(20, 46, 150, 1) 50%, rgba(178, 111, 237
     background-color: rgb(221, 239, 239);
     border-radius: 20px;
 }
-
 button {
     display: flex;
     justify-content: space-around;
@@ -57,24 +53,19 @@ button {
     border: none;
     cursor: pointer;
 }
-
 .container> :nth-child(2) {
     font-size: 1.5rem;
     color: #ffffff;
     text-align: center;
     font-weight: bolder;
-
-
     text-decoration: underline;
 }
-
 .container div p {
     font-weight: bold;
     font-size: 1.2rem;
     outline: none;
     padding: 10px;
 }
-
 .main img {
     cursor: pointer;
 }
